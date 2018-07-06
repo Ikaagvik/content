@@ -47,10 +47,6 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
-	
-	#six {
-	padding-bottom: 50px;
-	}
 
 /* Box Model */
 
@@ -1560,7 +1556,7 @@
 
 	body, input, select, textarea {
 		color: #888;
-		font-family: "Roboto", sans-serif;
+		font-family: "Lato", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -1818,7 +1814,7 @@
 		.select-wrapper:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: "Open Sans";
+			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -1884,7 +1880,7 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: "Open Sans";
+				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -1989,7 +1985,7 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: "Open Sans";
+			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2072,7 +2068,6 @@
 			position: relative;
 			float: left;
 			width:20%;
-			z-index:9999;
 		}
 		
 		
@@ -2118,16 +2113,19 @@
 
 /*bios*/
 		.profile-name {
-			padding-left: 35px; 
+
+			padding-left:40px;
 		}
 		
 
 		
 		.profile-bio {
-			padding-left: 35px; 
+
+			padding-left:30px;
+
+			
 		}
 		
-
 /* List */
 
 	ol {
@@ -2183,7 +2181,7 @@
 				ul.feature-icons li:before {
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
-					font-family: "Open Sans";
+					font-family: FontAwesome;
 					font-style: normal;
 					font-weight: normal;
 					text-transform: none !important;
@@ -2647,12 +2645,9 @@
 			}
 
 				#header > nav ul li {
-					border-top: solid 1px #008ADB;
+					border-top: solid 2px #268CBF;
 					display: block;
 					padding: 0;
-				}
-				#header > nav ul li :hover{
-					background-color: #008ADB;
 				}
 
 					#header > nav ul li a {
@@ -2667,11 +2662,9 @@
 						text-decoration: none;
 					}
 
-
 						#header > nav ul li a.active {
 							background: #fff;
 							color: #00a3e8 !important;
-							font-weight:700;
 						}
 
 					#header > nav ul li:first-child {
@@ -2716,7 +2709,7 @@
 /* Footer */
 
 	#footer {
-		background: #2E434F;
+		background: #333;
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
@@ -2782,23 +2775,8 @@
 			#main > section > .container {
 				padding: 4em 0 2em 0;
 			}
-			
-				/*bios*/
-		.profile-name {
-			padding-left: 10px; 
-		}
-		
-
-		
-		.profile-bio {
-			padding-left: 10px; 
-		}
 
 	}
-	
-
-		
-
 
 /* Large */
 
@@ -2821,17 +2799,6 @@
 			#wrapper {
 				padding-right: 20em;
 			}
-			
-				/*bios*/
-		.profile-name {
-			padding-left: 40px; 
-		}
-		
-
-		
-		.profile-bio {
-			padding-left: 40px; 
-		}
 
 	}
 
@@ -3004,19 +2971,6 @@
 				-ms-transform: translateX(0);
 				transform: translateX(0);
 			}
-			
-				/*bios*/
-		.profile-name {
-			padding-left: 30px; 
-		}
-		
-		.profile-photo {
-			z-index: 9999;
-		}
-		
-		.profile-bio {
-			padding-left: 30px; 
-		}
 
 	}
 
@@ -3165,20 +3119,7 @@
 				-ms-transform: translateX(-17em);
 				transform: translateX(-17em);
 			}
-			
-				/*bios*/
-		.profile-name {
-			float:left;
-			width:100%;
-			padding-left:0;
-		}
-		
-		.profile-bio {
-			float:left;
-			width:100%;
-			padding-left:0;
-			
-		}
+
 	}
 
 /* XSmall */
@@ -3373,7 +3314,7 @@
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 99999; /* Sit on top */
+    z-index: 1; /* Sit on top */
     padding-top: 10px; /* Location of the box */
     left: 0;
     top: 0;
@@ -3388,7 +3329,7 @@
 .modal-content {
     margin: auto;
     display: block;
-    max-width: 90%;
+    max-height: 90%;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -3437,5 +3378,12 @@
         width: 90%;
 		padding-top:20%;
     }
-
+	.close {
+    position: fixed;
+    top: 20%;
+    color: #ccc;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
 }

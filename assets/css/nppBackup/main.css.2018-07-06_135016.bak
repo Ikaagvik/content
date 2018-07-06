@@ -2970,7 +2970,7 @@
 					#titleBar .toggle:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
-						font-family: FontAwesome;
+						font-family: "Open Sans";
 						font-style: normal;
 						font-weight: normal;
 						text-transform: none !important;
@@ -3373,7 +3373,7 @@
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 99999; /* Sit on top */
+    z-index: 1; /* Sit on top */
     padding-top: 10px; /* Location of the box */
     left: 0;
     top: 0;
@@ -3388,7 +3388,7 @@
 .modal-content {
     margin: auto;
     display: block;
-    max-width: 90%;
+    max-height: 90%;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -3434,8 +3434,16 @@
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
     .modal-content {
+	position: absolute;
         width: 90%;
-		padding-top:20%;
+	top: 3em;
     }
-
+	.close {
+    position: fixed;
+    top: 20%;
+    color: #ccc;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
 }
