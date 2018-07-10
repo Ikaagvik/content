@@ -642,6 +642,20 @@ scientific articles and 3 books on high-latitude marine mammals.</p>
 											<img src="Drone_launch_Oregon.jpg" style="width:100%;border-radius:10px;"/>
 											
 										</div>
+										<p>
+										Latitude Engineering’s HQ-90B aircraft represents a giant leap in Unmanned Aerial Vehicle
+(UAV) capability, enabling long-endurance missions with vertical takeoff and landing (VTOL)
+and optimized to perform in remote locations such as Alaska’s Arctic coastal communities. The
+Hybrid Quadrotor (HQ) technology offers the efficiency, speed, and range of a normal fixed-
+wing aircraft with no need for a runway or other complex launch and recovery equipment.
+The HQ-90B has a cruising speed of 40 knots, with a 15-hour endurance carrying a nominal
+15-lb payload. The HQ-90B can reach 14,000 feet, has a wingspan of 185 inches and weighs
+115 lb. The aircraft features a swappable nose cone for holding a variety of payloads that can be
+switched out quickly. Compared to pure multi-rotors, HQ technology is more cost effective,
+more reliable, has higher top speed, more endurance, more wind tolerance, and can cover more
+ground. Compared to fixed wing aircraft, HQ technology operates from more locations and from
+more types of platforms.
+										</p>
 									
 									<!--<div class="w3-content w3-display-container" style="max-width:800px">
 										<img class="mySlides2 fade" src="drone_Oregon01.jpg">
@@ -696,7 +710,7 @@ scientific articles and 3 books on high-latitude marine mammals.</p>
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>&copy; Design: <a href="https://unamiller.github.io/">Una Miller</a> & <a href="https://sckw.github.io/home/">Suki Wong</a> | <a href="https://www.ldeo.columbia.edu/">Lamont-Doherty Earth Observatory, Columbia University</a></li>
+								<li>&copy; Design: <a href="https://unamiller.github.io/" target="_blank">Una Miller</a> & <a href="https://sckw.github.io/home/" target="_blank">Suki Wong</a> | <a href="https://www.ldeo.columbia.edu/" target="_blank">Lamont-Doherty Earth Observatory, Columbia University</a></li>
 							</ul>
 						</div>
 					</section>
@@ -712,42 +726,7 @@ scientific articles and 3 books on high-latitude marine mammals.</p>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			
-			<script>
-			$(".profile-bio .button").click(function() {
-      
-  totalHeight = 0
 
-  $el = $(this);
-  $p  = $el.parent();
-  $up = $p.parent();
-  $ps = $up.find("p:not('.read-more')");
-  
-  // measure how tall inside should be by adding together heights of all inside paragraphs (except read-more paragraph)
-  $ps.each(function() {
-    totalHeight += $(this).outerHeight();
-  });
-        
-  $up
-    .css({
-      // Set height to prevent instant jumpdown when max height is removed
-      "height": $up.height(),
-      "max-height": 9999
-    })
-    .animate({
-      "height": totalHeight
-    });
-  
-  // fade out read-more
-  $p.fadeOut();
-  
-  // prevent jump-down
-  return false;
-  
-    
-});
-
-			</script>
-			
 			<script>
 				var slideIndex=0;
 				carousel();
