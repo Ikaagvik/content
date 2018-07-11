@@ -47,23 +47,24 @@
 										<p style="font-style:italic;top:-10px;">"Ice bridges"</p>
 									</header>
 									<p style="text-align:justify;">Ikaaġvik  Sikukun  is  a  research  project  that  couples  state-of-the-art  geophysical  observations  from  unmanned  aerial  systems  (UAS)  with  a  community-engaged  research  approach  to  bridge  scientific  and  indigenous  understanding  of  sea  ice  change  in  the  Alaska  Arctic.    Our  research  team  represents  a  partnership  between  academic  researchers  and  the  Native  Village  of  Kotzebue  and  includes  expertise  in  ice  and  ocean  physics,  marine  biology,  ethnography  and  documentary  filmmaking.  The  research  will  take  place  in  and  around  the  community  of  Kotzebue,  Alaska,  which  lies  within  Kotzebue  Sound  on  the  coast  of  southern  Chukchi  Sea.  Sea  ice  is  integral  to  the  way  of  life  for  Kotzebue’s  indigenous  residents  who  rely  on  the  marine  mammals  that  inhabit  the  ice  pack  for  food  and  clothing.  Our  study  plan  begins  and  ends  with  the  involvement  of  community  members  to  help  craft  research  questions,  collect  observations  and  synthesize  our  findings.  Ultimately,  the  findings  will  contribute  to  predictive  assessments  of  the  changing  cryosphere  of  Kotzebue  Sound,  the  implications  of  such  change  for  the  ecology  and  the  Iñupiaq  way  of  life  that  is  dependent  upon  it.  Through  this  approach,  we  will  address  key  questions  concerning  the  mechanisms  and  impacts  of  rapid  changes  taking  place  in  the  Arctic  while  ensuring  that  our  answers  incorporate  traditional  ways  of  knowing  and  are  relevant  to  local  needs. </p>
-									
-									<script>
-										.mySlides {display:none}
-										.mySlides2 {display:none}
-										.w3-left, .w3-right, .w3-badge {cursor:pointer}
-										.w3-badge {height:13px;width:13px;padding:0}
-									</script>
-									
+															
 									
 									<div class="w3-content w3-display-container" style="max-width:800px">
-										<img class="mySlides fade" src="drone_prep_Oregon.jpg">
-										<img class="mySlides fade" src="Drones_Oregon03.jpg">
-										<img class="mySlides fade" src="Droneshow01.jpg">
-										<img class="mySlides fade" src="Peter_Bobby_Pearl.jpg">
-										<img class="mySlides fade" src="Showing01.jpg">
-										<img class="mySlides fade" src="team_drone02.jpg">
-										<img class="mySlides fade" src="Nate_payloads_Oregon.jpg">
+										<img class="mySlides fade" src="KotzSB_4_25_18-9.jpg">
+										<img class="mySlides fade" src="KotzSB_4_25_18-42.jpg">
+										<img class="mySlides fade" src="KotzSB_4_25_18-48.jpg">
+										<img class="mySlides fade" src="KotzSB_4_25_18-52.jpg">
+										<img class="mySlides fade" src="KotzSB_4_25_18-78.jpg">
+										<img class="mySlides fade" src="KotzSB_4_25_18-154.jpg">
+										<img class="mySlides fade" src="KotzSB_4_30_18-5.jpg">
+										<img class="mySlides fade" src="KotzSB_5_2_18-129.jpg">
+										<img class="mySlides fade" src="KotzSB_5_2_18-167.jpg">
+										<img class="mySlides fade" src="KotzSB_5_3_18-109.jpg">
+										<img class="mySlides fade" src="KotzSB_5_4_18-10.jpg">
+										<img class="mySlides fade" src="KotzSB_5_9_18-23.jpg">
+										<img class="mySlides fade" src="KotzSB_5_10_18-1.jpg">
+										<img class="mySlides fade" src="KotzSB_5_12_18-105.jpg">
+										<img class="mySlides fade" src="KotzSB_5_12_18-141.jpg">
 											<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
 												<div class="w3-left w3-hover-text-gray" onclick="plusDivs(-1)">&#10094;</div>
 												<div class="w3-right w3-hover-text-gray" onclick="plusDivs(1)">&#10095;</div>
@@ -74,6 +75,14 @@
 												<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
 												<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
 												<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+												<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(8)"></span>
+												<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(9)"></span>
+												<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(10)"></span>
+												<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(11)"></span>
+												<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(12)"></span>
+												<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(13)"></span>
+												<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(14)"></span>
+												<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(15)"></span>
 											 </div>
 									</div>
 									<div style="position:relative; top:50px;">
@@ -736,6 +745,7 @@ more types of platforms.
 
 				function currentDiv(n) {
 				  showDivs(slideIndex = n);
+				  setTimeout(currentDiv, 8000);
 				}
 
 				function showDivs(n) {
@@ -763,13 +773,14 @@ more types of platforms.
 					slideIndex++;
 					if (slideIndex > x.length) {slideIndex = 1} 
 					x[slideIndex-1].style.display = "block"; 
-					setTimeout(carousel, 7000); // Change image every 2 seconds
+					setTimeout(carousel, 8000); // Change image timer
 					
 					showDivs(slideIndex);
 				}							
+				
 			</script>
 			
-			<script>
+			<script>/*
 				var slideIndex2=0;
 				carousel2();
 				
@@ -786,7 +797,7 @@ more types of platforms.
 					
 					showDivs2(slideIndex2);
 				}							
-			</script>
+			</script>*/
 			
 			<script>
 			$readMoreJS.init({

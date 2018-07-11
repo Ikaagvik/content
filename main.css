@@ -3161,6 +3161,11 @@
 
 	}
 	
+	/* SLIDES */
+			.mySlides {display:none}
+			.mySlides2 {display:none}
+			.w3-left, .w3-right, .w3-badge {cursor:pointer}
+			.w3-badge {height:13px;width:13px;padding:0}
 			.mySlides {
 				display:none;
 				max-width:100%;
@@ -3362,3 +3367,4 @@
     transition: 0.3s;
 }
 }
+
