@@ -3166,6 +3166,8 @@
 			padding-left:0;
 			
 		}
+		
+	
 	}
 
 /* XSmall */
@@ -3308,6 +3310,13 @@
 				width:13px;
 				padding:0;
 			}
+			
+	@media screen and (max-width: 600px) {
+			/*SLIDES MEDIUM*/
+			.w3-border{display:none!important}
+			.w3-transparent{display:none!important}
+			.w3-hover-white:hover{display:none!important}
+	}
 			
 			.funding {
 				padding-top: 50px;
