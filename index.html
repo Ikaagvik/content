@@ -739,13 +739,19 @@ more types of platforms.
 				var slideIndex=0;
 				carousel();
 
+				var myTimer = setInterval(carousel,5000);
+
+
 				function plusDivs(n) {
+				  clearInterval(myTimer);
+				  myTimer = setInterval(carousel,5000);
 				  showDivs(slideIndex += n);
 				}
 
 				function currentDiv(n) {
+				  clearInterval(myTimer);
+				  myTimer = setInterval(carousel,5000);
 				  showDivs(slideIndex = n);
-				  setTimeout(currentDiv, 8000);
 				}
 
 				function showDivs(n) {
@@ -773,10 +779,10 @@ more types of platforms.
 					slideIndex++;
 					if (slideIndex > x.length) {slideIndex = 1} 
 					x[slideIndex-1].style.display = "block"; 
-					setTimeout(carousel, 8000); // Change image timer
-					
 					showDivs(slideIndex);
 				}							
+				
+	
 				
 			</script>
 			
