@@ -2924,6 +2924,9 @@
 	width:2.2em;
 }
 
+#two img {
+	display:none;
+}
 
 /* Footer */
 
@@ -3238,6 +3241,16 @@
 
 	@media screen and (max-width: 736px) {
 
+		/* HIGHLIGHTS */
+		.timeline-header,.timeline,.timeline-legend {
+			display:none;
+		}
+		
+		#two img {
+			display: block;
+			width: 100%;
+		}
+	
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3400,7 +3413,17 @@
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
-
+		
+		/* HIGHLIGHTS */
+		.timeline-header,.timeline,.timeline-legend {
+			display:none;
+		}
+		
+		#two img {
+			display: block;
+		}
+		
+		
 		/* Basic */
 
 			html, body {
@@ -3662,3 +3685,4 @@
     }
 
 }
+
