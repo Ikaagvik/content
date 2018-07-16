@@ -2711,7 +2711,6 @@
 	grid-template-columns: repeat(13, [col] auto );
 	grid-template-rows: repeat(12, [row] auto);
 	font-size: .8em;
-	margin-bottom:3em;
 	margin-top:10px;
 }
 
@@ -2795,11 +2794,6 @@
 	font-weight:bold;
 	border:none;
 }
-
-.box.a:hover {
-	color: black;
-}
-
 
 .b,.c,.d,.b2,.c2,.b3,.c3,.b4,.c4 {
 	background-color: #D9E5D6;
@@ -2892,6 +2886,44 @@
 .box.g4:hover {
 	border-color: black;
 }
+
+.timeline-legend {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(10, [col] auto );
+	grid-template-rows: repeat(1, [row] auto);
+	font-size: .8em;
+	margin-top: 3em;
+	margin-bottom:4em;
+	line-height:1.2em;
+}
+
+.key1 {
+	background-color: #D9E5D6;
+	border-radius:10px;
+	width:2.2em;
+}
+.key2 {
+	background-color: #4F6D7A;
+	border-radius:10px;
+	width:2.2em;
+}
+.key3 {
+	background-color: #E07A5F;
+	border-radius:10px;
+	width:2.2em;
+}
+.key4 {
+	background-color: #FFBA49;
+	border-radius:10px;
+	width:2.2em;
+}
+.key5 {
+	background-color: #6DA34D;
+	border-radius:10px;
+	width:2.2em;
+}
+
 
 /* Footer */
 
