@@ -2800,11 +2800,98 @@
 	color: black;
 }
 
-.box:hover {
-	color: black;	
-	border-color: black;
+
+.b,.c,.d,.b2,.c2,.b3,.c3,.b4,.c4 {
+	background-color: #D9E5D6;
+	border-color: #D9E5D6
 }
 
+.box.b:hover,
+.box.c:hover,
+.box.d:hover,
+.box.b2:hover,
+.box.c2:hover,
+.box.b3:hover,
+.box.c3:hover,
+.box.b4:hover,
+.box.c4:hover {
+	border-color:#00a3e8;
+	background-color: #00a3e8;
+	color: #eee;
+}
+
+.e,.f,.g,.d2,.e2,.f2,.d3,.e3,.f3,.d4,.e4  {
+	background-color: #4F6D7A;
+	border-color:#4F6D7A;
+	color: #eee;
+}
+
+.box.e:hover,
+.box.f:hover,
+.box.g:hover,
+.box.d2:hover,
+.box.e2:hover,
+.box.f2:hover,
+.box.d3:hover,
+.box.e3:hover,
+.box.f3:hover,
+.box.d4:hover,
+.box.e4:hover {
+	border-color:#00a3e8;
+	background-color: #00a3e8;
+}
+
+.h,.j,.i2,.j2,.h3,.i3,.h4 {
+    	background-color: #E07A5F;
+	border-color: #E07A5F;
+	color: #eee;
+}
+
+.box.h:hover,
+.box.j:hover,
+.box.i2:hover,
+.box.j2:hover,
+.box.h3:hover,
+.box.i3:hover,
+.box.h4:hover {
+	border-color:#00a3e8;
+	background-color: #00a3e8;
+}
+
+
+.i,.g2 {
+	background-color: #FFBA49 ;
+	border-color: #FFBA49 ;
+	color: #222;
+
+}
+
+.box.i:hover,
+.box.g2:hover {
+	border-color:#00a3e8;
+	background-color: #00a3e8;
+	color: #eee;
+}
+
+.h2,.g3,.f4 {
+	background-color: #6DA34D;
+	border-color: #6DA34D;
+	color: #eee;
+}
+
+.box.h2:hover,
+.box.g3:hover,
+.box.f4:hover {
+	border-color:#00a3e8;
+	background-color: #00a3e8;
+}
+
+.box.k2:hover,
+.box.j3:hover,
+.box.i4:hover,
+.box.g4:hover {
+	border-color: black;
+}
 
 /* Footer */
 
