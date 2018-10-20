@@ -1587,6 +1587,10 @@
 			border-bottom-color: transparent;
 			color: #00a3e8 !important;
 		}
+		
+	span#Logistics:hover {
+		color: #00a3e8 !important;
+	}
 
 	strong, b {
 		color: #777;
