@@ -8,7 +8,7 @@
 
 /* Reset */
 
-	
+
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -47,17 +47,17 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
-	
+
 	#six {
 	padding-bottom: 50px;
 	}
-	
+
 	#one .header-img {
 		display:block;
 		width: calc(100%);
 		-webkit-mask-image:-webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 	}
-	
+
 
 
 /* Box Model */
@@ -1587,7 +1587,7 @@
 			border-bottom-color: transparent;
 			color: #00a3e8 !important;
 		}
-		
+
 	span#Logistics:hover {
 		color: #00a3e8 !important;
 	}
@@ -1700,14 +1700,14 @@
 		position:relative;
 		left:20px;
 	}
-	
+
 	.team-bio p{
 		position:relative;
 		left:20px;
-		
+
 		height:95px;
 	}
-	
+
 	section.special, article.special {
 		text-align: center;
 	}
@@ -2042,13 +2042,13 @@
 				width: 100%;
 				padding-bottom: 1em;
 			}
-			
-		
+
+
 
 		.team-section-content {
 			padding-top:10px;
 		}
-		
+
 		.profile-photo img {
 			border-radius: 50%;
 			display: block;
@@ -2056,26 +2056,26 @@
 			/* padding-bottom:20px;
 			padding-right:10px; */
 		}
-		
+
 		.profile-name {
 			position: relative;
 			float:right;
 			width:80%;
 			padding-left:10px;
 		}
-		
+
 		.profile-photo {
 			position: relative;
 			float: left;
 			width:20%;
 			z-index:9999;
 		}
-		
-		
+
+
 		.team-section p {
 			margin: 0 0 0 0;
 		}
-		
+
 		.profile-bio {
 			position: relative;
 			float:right;
@@ -2084,32 +2084,32 @@
 			text-align:justify;
 		}
 
-		
+
 		.member {
 			display:inline-block;
 			padding-top:20px;
 		}
-		
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="profile-"] {
         width: 100%;
-   
+
 	}
 
 }
 
 /*bios*/
 		.profile-name {
-			padding-left: 35px; 
+			padding-left: 35px;
 		}
-		
 
-		
+
+
 		.profile-bio {
-			padding-left: 35px; 
+			padding-left: 35px;
 		}
-		
+
 
 /* List */
 
@@ -2965,7 +2965,7 @@
 			#header {
 				width: 21em;
 			}
-			
+
 
 
 				#header > header {
@@ -2987,22 +2987,22 @@
 			#main > section > .container {
 				padding: 4em 0 2em 0;
 			}
-			
+
 				/*bios*/
 		.profile-name {
-			padding-left: 10px; 
+			padding-left: 10px;
 		}
-		
 
-		
+
+
 		.profile-bio {
-			padding-left: 10px; 
+			padding-left: 10px;
 		}
 
 	}
-	
 
-		
+
+
 
 
 /* Large */
@@ -3026,16 +3026,16 @@
 			#wrapper {
 				padding-right: 20em;
 			}
-			
+
 				/*bios*/
 		.profile-name {
-			padding-left: 40px; 
+			padding-left: 40px;
 		}
-		
 
-		
+
+
 		.profile-bio {
-			padding-left: 40px; 
+			padding-left: 40px;
 		}
 
 	}
@@ -3209,18 +3209,18 @@
 				-ms-transform: translateX(0);
 				transform: translateX(0);
 			}
-			
+
 				/*bios*/
 		.profile-name {
-			padding-left: 30px; 
+			padding-left: 30px;
 		}
-		
+
 		.profile-photo {
 			z-index: 9999;
 		}
-		
+
 		.profile-bio {
-			padding-left: 30px; 
+			padding-left: 30px;
 		}
 
 	}
@@ -3233,12 +3233,12 @@
 		.timeline-header,.timeline,.timeline-legend {
 			display:none;
 		}
-		
+
 		#two img {
 			display: block;
 			width: 100%;
 		}
-	
+
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3380,38 +3380,38 @@
 				-ms-transform: translateX(-17em);
 				transform: translateX(-17em);
 			}
-			
+
 				/*bios*/
 		.profile-name {
 			float:left;
 			width:100%;
 			padding-left:0;
 		}
-		
+
 		.profile-bio {
 			float:left;
 			width:100%;
 			padding-left:0;
-			
+
 		}
-		
-	
+
+
 	}
 
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
-		
+
 		/* HIGHLIGHTS */
 		.timeline-header,.timeline,.timeline-legend {
 			display:none;
 		}
-		
+
 		#two img {
 			display: block;
 		}
-		
-		
+
+
 		/* Basic */
 
 			html, body {
@@ -3471,19 +3471,19 @@
 			}
 
 	}
-	
+
 			.mySlides {
 				display:none;
 				max-width:100%;
 				border-radius:10px;
 			}
-			
+
 			.mySlides2 {
 				display:none;
 				max-width:100%;
 				border-radius:10px;
 			}
-			
+
 			.w3-container{padding:0.01em 16px}
 			.w3-content{max-width:980px;margin:auto}
 			.w3-display-container{position:relative}
@@ -3508,8 +3508,8 @@
 				border-radius:10px;
 				opacity:0.8;
 			}
-			
-			
+
+
 			.w3-right {
 				cursor:pointer;
 				background-color:#000;
@@ -3520,18 +3520,18 @@
 				border-radius:10px;
 				opacity:0.8;
 			}
-			
-			
+
+
 			.w3-center{text-align:center!important}
 			.w3-center{display:inline-block;width:auto}
 			.w3-left{float:left!important;position:relative;}.w3-right{float:right!important;}
 			.w3-left{float:left!important;position:relative;}.w3-right{float:right!important;}
-			
+
 			.w3-container:after,.w3-container:before{content:"";display:table;clear:both}
 			.w3-badge {
 				cursor:pointer;
 			}
-			
+
 			.w3-badge{
 				background-color:#000;
 				color:#fff;
@@ -3540,31 +3540,31 @@
 				padding-right:8px;
 				text-align:center;
 			}
-			
+
 			.w3-badge{border-radius:50%}
-				
+
 			.w3-badge {
 				height:13px;
 				width:13px;
 				padding:0;
 			}
-			
+
 	@media screen and (max-width: 600px) {
 			/*SLIDES MEDIUM*/
 			.w3-border{display:none!important}
 			.w3-transparent{display:none!important}
 			.w3-hover-white:hover{display:none!important}
 	}
-			
+
 			.funding {
 				padding-top: 50px;
 			}
-			
-			
+
+
 			.funding h3{
 				padding-bottom: 20px;
 			}
-			
+
 			/* Fading animation */
 			.fade {
 			  -webkit-animation-name: fade;
@@ -3574,24 +3574,24 @@
 			}
 
 			@-webkit-keyframes fade {
-			  from {opacity: .9} 
+			  from {opacity: .9}
 			  to {opacity: 1}
 			}
 
 			@keyframes fade {
-			  from {opacity: .9} 
+			  from {opacity: .9}
 			  to {opacity: 1}
 			}
-			
-			
-		
-			
+
+
+
+
 			.map img{
 				position:relative;
 				top:20px;
 				padding-bottom:50px;
 			}
-			
+
 /* --------MODAL--------------- */
 
 /* Style the Image Used to Trigger the Modal */
@@ -3637,13 +3637,13 @@
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption { 
+.modal-content, #caption {
     animation-name: zoom;
     animation-duration: 0.6s;
 }
 
 @keyframes zoom {
-    from {transform:scale(0)} 
+    from {transform:scale(0)}
     to {transform:scale(1)}
 }
 
@@ -3674,3 +3674,22 @@
 
 }
 
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+/* 16x9 Aspect Ratio */
+.iframe-container-16x9 {
+  padding-top: 56%;
+}
